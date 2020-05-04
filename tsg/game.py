@@ -25,4 +25,6 @@ class Game:
     def draw(self):
         pyxel.cls(pyxel.COLOR_BLACK)
 
+        pyxel.bltm(0, 0, 0, 0, 0, 16, 8)
+
         self.player.draw()
